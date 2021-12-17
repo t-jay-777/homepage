@@ -147,6 +147,16 @@ body {
     width          : 30px;
     display        : flex;
     justify-content: center;
+    color: var(--text-decoration-color);
+}
+
+.intro__icon-wrapper_2 {
+    margin-right   : 30px;
+    margin-left    : 30px;
+    width          : 30px;
+    display        : flex;
+    justify-content: center;
+    color: var(--text-decoration-color);
 }
 
 .intro__icon {
