@@ -71,6 +71,19 @@ body {
 
 /*! Contact info styles*/
 
+.contact_info {
+    display      : flex;
+    align-content: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.contact_info a {
+    display: flex;
+    padding: 10px 20px;
+    margin: auto;
+}
+
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
@@ -105,9 +118,9 @@ body {
     justify-content: start;
 }
 
-.contact-info__item:not(:last-child) {
+/* .contact-info__item:not(:last-child) {
     margin-bottom: 20px;
-}
+} */
 
 .contact-info__item-icon-wrapper {
     margin-right   : 10px;
